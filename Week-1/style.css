@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+
+.main {
+  overflow: hidden;
+  height: 100%;
+}
+
+* {
+  margin: 0px;
+  font-family: "Lato", sans-serif;
+}
+
+nav > button,
+.btn {
+  background-color: transparent;
+  border: 0;
+}
+
+:root {
+  --header-text-color: #f0ffff;
+}
+
+.header-nav {
+  display: flex;
+  height: 95vh;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: column;
+  padding: 0.25rem;
+  justify-content: space-around;
+  background-color: rgb(192, 192, 192);
+}
+
+.nav-bar i {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.banner-table {
+  flex-grow: 9;
+  display: flex;
+  flex-direction: column;
+}
+
+.banner {
+  display: flex;
+  background-color: rgb(47, 47, 47);
+  padding: 2rem;
+}
+
+.banner-desc {
+  display: flex;
+  flex-direction: column;
+  color: var(--header-text-color);
+  margin-left: 4rem;
+  justify-content: space-between;
+}
+
+.banner-title {
+  margin-bottom: 1.5rem;
+}
+
+.banner-btn {
+}
+
+.banner-btn > button {
+  color: White;
+  font-size: 15px;
+}
+
+.table {
+  padding: 1rem;
+  width: 100%;
+}
+
+.song-details-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.song-details-table td {
+  padding: 1rem;
+  text-align: left;
+}
+
+.song-details-table button {
+  color: blue;
+}
+
+.song-details-table tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.footer {
+  display: flex;
+  height: 5vh;
+  padding: 0.75rem;
+  background-color: blue;
+  color: #f0ffff;
+}
+
+.footer-img {
+  margin-right: 0.5rem;
+}
+
+.footer-img img {
+  height: 100%;
+}
+
+.footer-desc {
+  display: flex;
+  flex-direction: column;
+  font-size: small;
+}
+
+.footer-btn {
+  display: flex;
+  margin-left: auto;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.footer-btn button {
+  background-color: transparent;
+  border: 0px;
+  color: var(--header-text-color);
+  font-weight: 900;
+  font-size: larger;
+}
